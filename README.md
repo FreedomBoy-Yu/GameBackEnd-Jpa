@@ -62,9 +62,3 @@ mvn spring-boot:run
 
 ### 4. 測試
 使用 Postman 或其他工具測試 API 功能。
-
-## 貢獻方式
-歡迎提出 Issue 或提交 Pull Request！
-
-## 授權
-此專案使用 MIT License。
