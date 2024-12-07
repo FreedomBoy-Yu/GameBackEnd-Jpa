@@ -62,3 +62,23 @@ mvn spring-boot:run
 
 ### 4. 測試
 使用 Postman 或其他工具測試 API 功能。
+
+<hr><br>
+## 資料庫設計
+以下為專案使用的資料庫設計與初始化 SQL 指令：
+
+
+
+### 建立 Schema 與資料表
+```sql
+CREATE SCHEMA `gamedata`;
+
+CREATE TABLE `gamedata`.`player` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `account` VARCHAR(45) NULL,
+  `password` VARCHAR(45) NULL,
+  `money` INT NULL,
+  `leavel` INT NULL,
+  PRIMARY KEY (`id`)
+);
+```
